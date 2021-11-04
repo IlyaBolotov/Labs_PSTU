@@ -5,10 +5,10 @@ int main()
 {
 	setlocale(LC_ALL,"Russian");
 	const float a = 7.481;
-	float i,k;
+	float F,G;
 	cout << "Введите число галонов" << endl;
-	cin >> k;
-	i = k / a;
-	cout << "Футов в " << k << " галонах: " << i << endl;
+	cin >> G;
+	F = G / a;
+	cout << G << " футов в " << F << " галлонах" << endl;
 	return 0;
 }
