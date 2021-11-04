@@ -3,9 +3,10 @@
 using namespace std;
 int main()
 {
-	int i = 20;
+	const int a = 10;
+	int i = a * 2;
 	int n = 20;
-	cout << 10 << endl;
+	cout << a << endl;
 	cout << i << endl;
 	cout << --n << endl;
 }
