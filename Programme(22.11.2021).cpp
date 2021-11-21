@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "Rusiian");
+	setlocale(LC_ALL, "Russian");
 	int N, i, j, k;
 	cout << "Введите длину катета" << endl;
 	cin >> N;
