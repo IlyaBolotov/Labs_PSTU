@@ -10,7 +10,7 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	int i = 2, Summ = 0; // i - счётчик
 	cout << "Требуется найти сумму положительных чётных чисел, меньших 100" << endl;
-	while (i <= 100)
+	while (i < 100)
 	{
 		Summ += i;
 		i += 2;
@@ -23,7 +23,7 @@ int main()
 	
 	i = 0;
 	Summ = 0;
-	while (i <= 100)
+	while (i < 100)
 	{
 		if (i % 2 == 0)
 			Summ += i;
